@@ -1,0 +1,5 @@
+protocol_version=1.1
+decision=SUPPLEMENT_ONLY
+signature_coverage=0.980861
+technical_model_pass=FALSE
+uc_effect_model_pass=FALSE

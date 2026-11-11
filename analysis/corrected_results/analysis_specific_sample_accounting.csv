@@ -1,0 +1,8 @@
+"dataset","role","case_n","comparator_n","inferential_use"
+"EGIDExpress EoC","confirmatory disease anchor",6,8,TRUE
+"EGIDExpress EoG","post hoc exploratory cross-organ anchor",9,12,TRUE
+"GSE75214","UC discovery",74,11,TRUE
+"GSE16879","within-center conditional UC validation",24,6,TRUE
+"GSE109142","conditional post hoc phenotype analysis",206,0,TRUE
+"GSE9686","QC failure; not used inferentially",5,8,FALSE
+"GSE36807","conditional sensitivity",15,7,TRUE

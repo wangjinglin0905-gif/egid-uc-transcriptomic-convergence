@@ -1,0 +1,9 @@
+"metric","value"
+"significant_genes_log2_x_plus_1",109
+"significant_genes_log2_x_plus_0.5",95
+"jaccard_significant_gene_sets",0.871559633027523
+"direction_concordance_common_significant_genes",1
+"rho_with_GSE75214_log2_x_plus_1",0.0641832687989243
+"rho_with_GSE75214_log2_x_plus_0.5",0.0643246745420965
+"rho_with_GSE16879_log2_x_plus_1",0.058402861990548
+"rho_with_GSE16879_log2_x_plus_0.5",0.0588010712766735

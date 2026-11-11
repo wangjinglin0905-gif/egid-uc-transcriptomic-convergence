@@ -1,0 +1,3 @@
+"comparison","n_common","rho_moderated_t","empirical_p_two_sided","permutations","signature_genes_discovery"
+"EoC_vs_GSE75214_discovery",10970,0.0641832687989243,0.513153513153513,3003,4
+"EoC_vs_GSE16879_within_center_validation",10937,0.058402861990548,0.235076492350765,10000,NA

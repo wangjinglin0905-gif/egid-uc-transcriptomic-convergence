@@ -1,0 +1,2 @@
+"n_case","n_ref","mean_case","mean_ref","hedges_g","se_g","ci_low","ci_high","mean_difference","permutation_p_two_sided","n_signature_total","n_signature_scored"
+15,7,0.694580073384826,-1.48838587153891,2.24280418754534,0.579032015622264,1.1079014369257,3.37770693816498,2.18296594492374,0.0001999800019998,209,205

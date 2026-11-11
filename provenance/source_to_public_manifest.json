@@ -1,0 +1,569 @@
+[
+  {
+    "public_path": "analysis/corrective_reanalysis_v1.0.R",
+    "source_relative_path": "analysis/corrective_reanalysis_v1.0.R",
+    "source_sha256": "4100b169bc1ded412b2cbab7c6991739446c81325d599ebb3ef6cf50c6556461",
+    "public_sha256": "649d12ab97e9be9a2a67a8364b60d26d1605b48a82c8c3d1cf7b8c971d7a55ba",
+    "adaptation": "path/output setup only; statistical operations retained"
+  },
+  {
+    "public_path": "analysis/supplementary_postprocessing_v1.0.R",
+    "source_relative_path": "analysis/supplementary_postprocessing_v1.0.R",
+    "source_sha256": "2954638173e0c08d8e4adadc5048c7ac62bb0a008bd3508dd54b546d7e880673",
+    "public_sha256": "cf14e7d02f4621d9c5dc6a932f512d1d7ca301860835d516673ce7d485921f44",
+    "adaptation": "path/output setup only; statistical operations retained"
+  },
+  {
+    "public_path": "analysis/matched_null_2026-08-28/run_matched_null_v1.1.R",
+    "source_relative_path": "analysis/matched_null_2026-08-28/run_matched_null_v1.1.R",
+    "source_sha256": "dfdbde054c5035ee44b0c29863fc871465e8658f23ee2b264aad245f07436208",
+    "public_sha256": "4d95de6dc117ff1eb6d8d746580cb03bbe6066800e0bea155c7805d3d4b6a162",
+    "adaptation": "path/output setup only; statistical operations retained"
+  },
+  {
+    "public_path": "analysis/matched_null_2026-08-28/render_matched_null_figure_v1.1.R",
+    "source_relative_path": "analysis/matched_null_2026-08-28/render_matched_null_figure_v1.1.R",
+    "source_sha256": "f48b461fc03b69848456332c57709d3c2887aa1a12c4ed48b29549c571dc16ad",
+    "public_sha256": "9c516fd9aff2d69ca718150d64b45a56867988f508804a2a4a9bebdd38190796",
+    "adaptation": "path/output setup only; statistical operations retained"
+  },
+  {
+    "public_path": "scripts/calibrate_figures_v2_4.R",
+    "source_relative_path": "submission_BMC_Gastroenterology_2026-08-29/scripts/calibrate_figures_v2_4.R",
+    "source_sha256": "bb419abc627add5180975efed619c31f02d8c5fdc97681b6abfaf03cde93bb40",
+    "public_sha256": "b1ad8ccfe27f5f53df192c698d6170c0ba6b2afd7257b8e2644f18941d7b5133",
+    "adaptation": "path/output setup only; statistical operations retained"
+  },
+  {
+    "public_path": "scripts/verify_frozen_results.R",
+    "source_relative_path": "submission_BMC_Gastroenterology_2026-08-29/scripts/verify_derived_statistics_v2_4.R",
+    "source_sha256": "5477401046a670b761277a9467b4b3361dd31a3aebeca490ab3e69fa825a8552",
+    "public_sha256": "caf1fc3bad279c237085d7b083a63d58b61a1a5792ae08c758af81c2439ce0a2",
+    "adaptation": "path/output setup only; statistical operations retained"
+  },
+  {
+    "public_path": "analysis/corrected_results/analysis_specific_sample_accounting.csv",
+    "source_relative_path": "analysis/corrected_results/analysis_specific_sample_accounting.csv",
+    "source_sha256": "325d57ee156e6d2d4fe937bde2ae83ac576c677bfef02f314d5bcbbf3b189f00",
+    "public_sha256": "325d57ee156e6d2d4fe937bde2ae83ac576c677bfef02f314d5bcbbf3b189f00",
+    "adaptation": "byte-identical"
+  },
+  {
+    "public_path": "analysis/corrected_results/EoC_DEG_corrected.csv",
+    "source_relative_path": "analysis/corrected_results/EoC_DEG_corrected.csv",
+    "source_sha256": "431c8678b63b2f7e8792b5a5550466dcc39e527fc0faeb15def18a0396567f0d",
+    "public_sha256": "431c8678b63b2f7e8792b5a5550466dcc39e527fc0faeb15def18a0396567f0d",
+    "adaptation": "byte-identical"
+  },
+  {
+    "public_path": "analysis/corrected_results/EoC_leave_one_out_primary_rho.csv",
+    "source_relative_path": "analysis/corrected_results/EoC_leave_one_out_primary_rho.csv",
+    "source_sha256": "f66fd89ca8ca9d64ba917142ecb4dbe5e3f29567e1108a3a9cd39422a8ced124",
+    "public_sha256": "f66fd89ca8ca9d64ba917142ecb4dbe5e3f29567e1108a3a9cd39422a8ced124",
+    "adaptation": "byte-identical"
+  },
+  {
+    "public_path": "analysis/corrected_results/EoC_transformation_sensitivity.csv",
+    "source_relative_path": "analysis/corrected_results/EoC_transformation_sensitivity.csv",
+    "source_sha256": "b63953019fe365fda8801950e0578f5ceb02facc2b14c07ed1e211e4ef2f2d0c",
+    "public_sha256": "b63953019fe365fda8801950e0578f5ceb02facc2b14c07ed1e211e4ef2f2d0c",
+    "adaptation": "byte-identical"
+  },
+  {
+    "public_path": "analysis/corrected_results/EoC_UC_discovery_exact_null.csv",
+    "source_relative_path": "analysis/corrected_results/EoC_UC_discovery_exact_null.csv",
+    "source_sha256": "dc744634588dcaa4d8eb053655dd70a405b483ec5c4320a1c3d8587cd70efa48",
+    "public_sha256": "dc744634588dcaa4d8eb053655dd70a405b483ec5c4320a1c3d8587cd70efa48",
+    "adaptation": "byte-identical"
+  },
+  {
+    "public_path": "analysis/corrected_results/EoC_UC_signature_gate_full.csv",
+    "source_relative_path": "analysis/corrected_results/EoC_UC_signature_gate_full.csv",
+    "source_sha256": "572d1f3dc71f1263902a3bf05d6e49c732e14840e9464ada2000d47152ffd610",
+    "public_sha256": "572d1f3dc71f1263902a3bf05d6e49c732e14840e9464ada2000d47152ffd610",
+    "adaptation": "byte-identical"
+  },
+  {
+    "public_path": "analysis/corrected_results/EoC_UC_validation_perm_null.csv",
+    "source_relative_path": "analysis/corrected_results/EoC_UC_validation_perm_null.csv",
+    "source_sha256": "445dead787ecc51e7fd1b194ce774dd8da8674894eb2b7a433cc9e4efca3b6a2",
+    "public_sha256": "445dead787ecc51e7fd1b194ce774dd8da8674894eb2b7a433cc9e4efca3b6a2",
+    "adaptation": "byte-identical"
+  },
+  {
+    "public_path": "analysis/corrected_results/EoG_DEG_corrected_exploratory.csv",
+    "source_relative_path": "analysis/corrected_results/EoG_DEG_corrected_exploratory.csv",
+    "source_sha256": "ce8425646a53b0564e26690c638b2c46bd013b112853eb4da5c09d29e889b6fa",
+    "public_sha256": "ce8425646a53b0564e26690c638b2c46bd013b112853eb4da5c09d29e889b6fa",
+    "adaptation": "byte-identical"
+  },
+  {
+    "public_path": "analysis/corrected_results/EoG_signature_GSE109142_exploratory_model.csv",
+    "source_relative_path": "analysis/corrected_results/EoG_signature_GSE109142_exploratory_model.csv",
+    "source_sha256": "423fa7a6399674a6aea173fe35fe45749fed61608b7f1dcd2b0921c877282bb7",
+    "public_sha256": "423fa7a6399674a6aea173fe35fe45749fed61608b7f1dcd2b0921c877282bb7",
+    "adaptation": "byte-identical"
+  },
+  {
+    "public_path": "analysis/corrected_results/EoG_signature_GSE109142_exploratory_scores.csv",
+    "source_relative_path": "analysis/corrected_results/EoG_signature_GSE109142_exploratory_scores.csv",
+    "source_sha256": "48ef3e79fd594b9b804e3729b2ceb6be24c33b1a7457012cfb7846f4118cf536",
+    "public_sha256": "48ef3e79fd594b9b804e3729b2ceb6be24c33b1a7457012cfb7846f4118cf536",
+    "adaptation": "byte-identical"
+  },
+  {
+    "public_path": "analysis/corrected_results/EoG_signature_GSE16879_label_perm_null.csv",
+    "source_relative_path": "analysis/corrected_results/EoG_signature_GSE16879_label_perm_null.csv",
+    "source_sha256": "26661327db1e7fec042533689f184e63952872b2d9cd3e92f5c4659dd08a1387",
+    "public_sha256": "26661327db1e7fec042533689f184e63952872b2d9cd3e92f5c4659dd08a1387",
+    "adaptation": "byte-identical"
+  },
+  {
+    "public_path": "analysis/corrected_results/EoG_signature_GSE16879_sample_validation.csv",
+    "source_relative_path": "analysis/corrected_results/EoG_signature_GSE16879_sample_validation.csv",
+    "source_sha256": "45b31d7be82435cc27f1e470cb51a8aaea3212ba5ff265d6decf66d3309b9821",
+    "public_sha256": "45b31d7be82435cc27f1e470cb51a8aaea3212ba5ff265d6decf66d3309b9821",
+    "adaptation": "byte-identical"
+  },
+  {
+    "public_path": "analysis/corrected_results/EoG_signature_GSE16879_scores.csv",
+    "source_relative_path": "analysis/corrected_results/EoG_signature_GSE16879_scores.csv",
+    "source_sha256": "462da5c87a038b074f6fa60d1dddb61e327fc95829ec4d402357389e8da3bb0e",
+    "public_sha256": "462da5c87a038b074f6fa60d1dddb61e327fc95829ec4d402357389e8da3bb0e",
+    "adaptation": "byte-identical"
+  },
+  {
+    "public_path": "analysis/corrected_results/EoG_signature_GSE36807_conditional_sensitivity.csv",
+    "source_relative_path": "analysis/corrected_results/EoG_signature_GSE36807_conditional_sensitivity.csv",
+    "source_sha256": "ae5455ed1d69e4659877184b871ef683304816f109464729fe7b8d1954e51b3a",
+    "public_sha256": "ae5455ed1d69e4659877184b871ef683304816f109464729fe7b8d1954e51b3a",
+    "adaptation": "byte-identical"
+  },
+  {
+    "public_path": "analysis/corrected_results/EoG_signature_GSE36807_scores.csv",
+    "source_relative_path": "analysis/corrected_results/EoG_signature_GSE36807_scores.csv",
+    "source_sha256": "103df888b6ece8edfd226d219ae0af28d807f6f5ec488714c1af88fed523913b",
+    "public_sha256": "103df888b6ece8edfd226d219ae0af28d807f6f5ec488714c1af88fed523913b",
+    "adaptation": "byte-identical"
+  },
+  {
+    "public_path": "analysis/corrected_results/EoG_UC_exploratory_perm_null.csv",
+    "source_relative_path": "analysis/corrected_results/EoG_UC_exploratory_perm_null.csv",
+    "source_sha256": "a5f41dbc0be474f83faf08ce3e049c95c02dad417ca04a813b07946f54bd341c",
+    "public_sha256": "a5f41dbc0be474f83faf08ce3e049c95c02dad417ca04a813b07946f54bd341c",
+    "adaptation": "byte-identical"
+  },
+  {
+    "public_path": "analysis/corrected_results/EoG_UC_exploratory_signature_gate_full.csv",
+    "source_relative_path": "analysis/corrected_results/EoG_UC_exploratory_signature_gate_full.csv",
+    "source_sha256": "09914f2c914ca9d19398a3fea5685efdf0216d0beb98f132e938313634bc4b62",
+    "public_sha256": "09914f2c914ca9d19398a3fea5685efdf0216d0beb98f132e938313634bc4b62",
+    "adaptation": "byte-identical"
+  },
+  {
+    "public_path": "analysis/corrected_results/EoG_UC_exploratory_signature_selected.csv",
+    "source_relative_path": "analysis/corrected_results/EoG_UC_exploratory_signature_selected.csv",
+    "source_sha256": "7e1c5e3efc19813399faf9fa619d906abe43d9f3297bbbc0af764567a634b3c4",
+    "public_sha256": "7e1c5e3efc19813399faf9fa619d906abe43d9f3297bbbc0af764567a634b3c4",
+    "adaptation": "byte-identical"
+  },
+  {
+    "public_path": "analysis/corrected_results/exploratory_EoG_UC_summary.csv",
+    "source_relative_path": "analysis/corrected_results/exploratory_EoG_UC_summary.csv",
+    "source_sha256": "850f02e0008578084a5b09a13b7ef3ddde2ed0e915fbe504bd205fe875ba2586",
+    "public_sha256": "850f02e0008578084a5b09a13b7ef3ddde2ed0e915fbe504bd205fe875ba2586",
+    "adaptation": "byte-identical"
+  },
+  {
+    "public_path": "analysis/corrected_results/GSE16879_UC_DEG_corrected.csv",
+    "source_relative_path": "analysis/corrected_results/GSE16879_UC_DEG_corrected.csv",
+    "source_sha256": "fbba077c778aeee44ab71b44fe901bbf22e4655f5e2ccbfd3a5e7a940db257ed",
+    "public_sha256": "fbba077c778aeee44ab71b44fe901bbf22e4655f5e2ccbfd3a5e7a940db257ed",
+    "adaptation": "byte-identical"
+  },
+  {
+    "public_path": "analysis/corrected_results/GSE75214_UC_DEG_corrected.csv",
+    "source_relative_path": "analysis/corrected_results/GSE75214_UC_DEG_corrected.csv",
+    "source_sha256": "5ba523f76c48fc5566dcca6a6eb1e40fe04b85c7ced5672dd797b191fd1f7352",
+    "public_sha256": "5ba523f76c48fc5566dcca6a6eb1e40fe04b85c7ced5672dd797b191fd1f7352",
+    "adaptation": "byte-identical"
+  },
+  {
+    "public_path": "analysis/corrected_results/Hallmark_camera_EoC.csv",
+    "source_relative_path": "analysis/corrected_results/Hallmark_camera_EoC.csv",
+    "source_sha256": "e7993cf23f8085b08e4f3cbfdb107b4a7974a3a5f908442344cf8c005f10019a",
+    "public_sha256": "e7993cf23f8085b08e4f3cbfdb107b4a7974a3a5f908442344cf8c005f10019a",
+    "adaptation": "byte-identical"
+  },
+  {
+    "public_path": "analysis/corrected_results/Hallmark_camera_EoG_exploratory.csv",
+    "source_relative_path": "analysis/corrected_results/Hallmark_camera_EoG_exploratory.csv",
+    "source_sha256": "dc373eff6492b64f83537deb4bc6b273907801a0014a6c9088533c0d854ba4b2",
+    "public_sha256": "dc373eff6492b64f83537deb4bc6b273907801a0014a6c9088533c0d854ba4b2",
+    "adaptation": "byte-identical"
+  },
+  {
+    "public_path": "analysis/corrected_results/Hallmark_camera_GSE16879_UC.csv",
+    "source_relative_path": "analysis/corrected_results/Hallmark_camera_GSE16879_UC.csv",
+    "source_sha256": "c55c0cf4be422beccf05cfe682737b16721afd1e75eac9ccbce5ddb3516878de",
+    "public_sha256": "c55c0cf4be422beccf05cfe682737b16721afd1e75eac9ccbce5ddb3516878de",
+    "adaptation": "byte-identical"
+  },
+  {
+    "public_path": "analysis/corrected_results/Hallmark_camera_GSE75214_UC.csv",
+    "source_relative_path": "analysis/corrected_results/Hallmark_camera_GSE75214_UC.csv",
+    "source_sha256": "30b2c634ddf1aed65f1ef7fc2d7fd1c8089455605b4b205a199c7ba4ae1dc594",
+    "public_sha256": "30b2c634ddf1aed65f1ef7fc2d7fd1c8089455605b4b205a199c7ba4ae1dc594",
+    "adaptation": "byte-identical"
+  },
+  {
+    "public_path": "analysis/corrected_results/Hallmark_exploratory_EoG_UC.csv",
+    "source_relative_path": "analysis/corrected_results/Hallmark_exploratory_EoG_UC.csv",
+    "source_sha256": "5c9fbc2ff0b3e4d170f1b82c29446401ef6817a1d6fcd9180d726cd84cb1f35c",
+    "public_sha256": "5c9fbc2ff0b3e4d170f1b82c29446401ef6817a1d6fcd9180d726cd84cb1f35c",
+    "adaptation": "byte-identical"
+  },
+  {
+    "public_path": "analysis/corrected_results/Hallmark_primary_discovery_validation.csv",
+    "source_relative_path": "analysis/corrected_results/Hallmark_primary_discovery_validation.csv",
+    "source_sha256": "cd6bef9fae872660a5ca0f81be597e15e874ff89475075eb8a112148e9261c9f",
+    "public_sha256": "cd6bef9fae872660a5ca0f81be597e15e874ff89475075eb8a112148e9261c9f",
+    "adaptation": "byte-identical"
+  },
+  {
+    "public_path": "analysis/corrected_results/headline_results.txt",
+    "source_relative_path": "analysis/corrected_results/headline_results.txt",
+    "source_sha256": "b643ad8d736670bf108c47da67d88f370b1ce32a91637ad8250bffc847eabb7d",
+    "public_sha256": "b643ad8d736670bf108c47da67d88f370b1ce32a91637ad8250bffc847eabb7d",
+    "adaptation": "byte-identical"
+  },
+  {
+    "public_path": "analysis/corrected_results/ORA_EoG_UC_GO_BP_full.csv",
+    "source_relative_path": "analysis/corrected_results/ORA_EoG_UC_GO_BP_full.csv",
+    "source_sha256": "93eb390720868cc7360dfa5ffccce36fefeeaf1339e7bb1ad1a26a021ba6b750",
+    "public_sha256": "93eb390720868cc7360dfa5ffccce36fefeeaf1339e7bb1ad1a26a021ba6b750",
+    "adaptation": "byte-identical"
+  },
+  {
+    "public_path": "analysis/corrected_results/ORA_EoG_UC_Hallmark_full.csv",
+    "source_relative_path": "analysis/corrected_results/ORA_EoG_UC_Hallmark_full.csv",
+    "source_sha256": "2dc3374c051f43b0d451e9ee6c253cd5f438b8c18599301409a6490edd1dc782",
+    "public_sha256": "2dc3374c051f43b0d451e9ee6c253cd5f438b8c18599301409a6490edd1dc782",
+    "adaptation": "byte-identical"
+  },
+  {
+    "public_path": "analysis/corrected_results/ORA_EoG_UC_KEGG_full.csv",
+    "source_relative_path": "analysis/corrected_results/ORA_EoG_UC_KEGG_full.csv",
+    "source_sha256": "64b895ab81d4584681d25c81d277c8aa3415455b4c70c984792aaf934051e1d5",
+    "public_sha256": "64b895ab81d4584681d25c81d277c8aa3415455b4c70c984792aaf934051e1d5",
+    "adaptation": "byte-identical"
+  },
+  {
+    "public_path": "analysis/corrected_results/primary_EoC_UC_summary.csv",
+    "source_relative_path": "analysis/corrected_results/primary_EoC_UC_summary.csv",
+    "source_sha256": "10050be38020688c815bd2ab5f321e57a448be5e7dcb41140522146278bfce38",
+    "public_sha256": "10050be38020688c815bd2ab5f321e57a448be5e7dcb41140522146278bfce38",
+    "adaptation": "byte-identical"
+  },
+  {
+    "public_path": "analysis/corrected_results/sessionInfo.txt",
+    "source_relative_path": "analysis/corrected_results/sessionInfo.txt",
+    "source_sha256": "a1d779ba687923891dd4613904625db2d9dd8d475b04206d0ebbbfd033d95c28",
+    "public_sha256": "a1d779ba687923891dd4613904625db2d9dd8d475b04206d0ebbbfd033d95c28",
+    "adaptation": "byte-identical"
+  },
+  {
+    "public_path": "analysis/corrected_results/UC_reproducibility_gene_level.csv",
+    "source_relative_path": "analysis/corrected_results/UC_reproducibility_gene_level.csv",
+    "source_sha256": "83053fba98ca5d2fb7d419d8ed49d535f327c20d2266e38a266ed29a75580b9a",
+    "public_sha256": "83053fba98ca5d2fb7d419d8ed49d535f327c20d2266e38a266ed29a75580b9a",
+    "adaptation": "byte-identical"
+  },
+  {
+    "public_path": "analysis/corrected_results/UC_within_center_reproducibility.csv",
+    "source_relative_path": "analysis/corrected_results/UC_within_center_reproducibility.csv",
+    "source_sha256": "3f1e158743b9a9cc53894fcc2753732d12ff1aff50b4fc99d72ed176ffe6a1c9",
+    "public_sha256": "3f1e158743b9a9cc53894fcc2753732d12ff1aff50b4fc99d72ed176ffe6a1c9",
+    "adaptation": "byte-identical"
+  },
+  {
+    "public_path": "analysis/matched_null_2026-08-28/config_v1.0.json",
+    "source_relative_path": "analysis/matched_null_2026-08-28/config_v1.0.json",
+    "source_sha256": "42b878ddec20419ac8b5bf3a71d92d34b82cb07634d393e980e19a6e2fc500ee",
+    "public_sha256": "42b878ddec20419ac8b5bf3a71d92d34b82cb07634d393e980e19a6e2fc500ee",
+    "adaptation": "byte-identical"
+  },
+  {
+    "public_path": "analysis/matched_null_2026-08-28/config_v1.1.json",
+    "source_relative_path": "analysis/matched_null_2026-08-28/config_v1.1.json",
+    "source_sha256": "bfa704ab6a705648557894ac4d3616fa70ea01ddc702ed27a8fea219168394c1",
+    "public_sha256": "bfa704ab6a705648557894ac4d3616fa70ea01ddc702ed27a8fea219168394c1",
+    "adaptation": "byte-identical"
+  },
+  {
+    "public_path": "analysis/matched_null_2026-08-28/frozen_protocol_v1.0_2026-08-28.md",
+    "source_relative_path": "analysis/matched_null_2026-08-28/frozen_protocol_v1.0_2026-08-28.md",
+    "source_sha256": "f3d12d160b54e02a903e7c08cf2d1f6555de776a4d5bf675585015db67dc27a1",
+    "public_sha256": "f3d12d160b54e02a903e7c08cf2d1f6555de776a4d5bf675585015db67dc27a1",
+    "adaptation": "byte-identical"
+  },
+  {
+    "public_path": "analysis/matched_null_2026-08-28/protocol_amendment_v1.1_2026-08-28.md",
+    "source_relative_path": "analysis/matched_null_2026-08-28/protocol_amendment_v1.1_2026-08-28.md",
+    "source_sha256": "1474f43daa94bad74974cadfda9a63bc10cdca730f0ecfb6bcc6fef7fc97d1a2",
+    "public_sha256": "1474f43daa94bad74974cadfda9a63bc10cdca730f0ecfb6bcc6fef7fc97d1a2",
+    "adaptation": "byte-identical"
+  },
+  {
+    "public_path": "analysis/matched_null_2026-08-28/results/analysis_universe_summary.csv",
+    "source_relative_path": "analysis/matched_null_2026-08-28/results/analysis_universe_summary.csv",
+    "source_sha256": "8dc3c8675974c6f45afdfceffe29f1cb749ec9186d09f1c6b9d0695859c19a7a",
+    "public_sha256": "8dc3c8675974c6f45afdfceffe29f1cb749ec9186d09f1c6b9d0695859c19a7a",
+    "adaptation": "byte-identical"
+  },
+  {
+    "public_path": "analysis/matched_null_2026-08-28/results/common_universe_properties.csv",
+    "source_relative_path": "analysis/matched_null_2026-08-28/results/common_universe_properties.csv",
+    "source_sha256": "7679b21f5122115eac79e6762e94d28c405c29902d58d1d2d54942dd8b2d7bd7",
+    "public_sha256": "7679b21f5122115eac79e6762e94d28c405c29902d58d1d2d54942dd8b2d7bd7",
+    "adaptation": "byte-identical"
+  },
+  {
+    "public_path": "analysis/matched_null_2026-08-28/results/competitive_test_results.csv",
+    "source_relative_path": "analysis/matched_null_2026-08-28/results/competitive_test_results.csv",
+    "source_sha256": "fe0ef2189b3bec61b5b12d19c2f08fadaf244f31467533c097b4bfca1c6e9af8",
+    "public_sha256": "fe0ef2189b3bec61b5b12d19c2f08fadaf244f31467533c097b4bfca1c6e9af8",
+    "adaptation": "byte-identical"
+  },
+  {
+    "public_path": "analysis/matched_null_2026-08-28/results/FigureS_matched_null_plotted_data.csv",
+    "source_relative_path": "analysis/matched_null_2026-08-28/results/FigureS_matched_null_plotted_data.csv",
+    "source_sha256": "9192152abb57776f00a8eebc37bf73168b1ab845c9dae1d72d6c7cd064fa4373",
+    "public_sha256": "9192152abb57776f00a8eebc37bf73168b1ab845c9dae1d72d6c7cd064fa4373",
+    "adaptation": "byte-identical"
+  },
+  {
+    "public_path": "analysis/matched_null_2026-08-28/results/frozen_decision.csv",
+    "source_relative_path": "analysis/matched_null_2026-08-28/results/frozen_decision.csv",
+    "source_sha256": "cfcd15fdfca1ea99a4840aa7377451f1eca219f8752007b437af4d52c0124717",
+    "public_sha256": "cfcd15fdfca1ea99a4840aa7377451f1eca219f8752007b437af4d52c0124717",
+    "adaptation": "byte-identical"
+  },
+  {
+    "public_path": "analysis/matched_null_2026-08-28/results/frozen_model_gates.csv",
+    "source_relative_path": "analysis/matched_null_2026-08-28/results/frozen_model_gates.csv",
+    "source_sha256": "72c6f25de7d8d28b1b42e412933ef17fcfaf25761dfbae218af945a4c7979699",
+    "public_sha256": "72c6f25de7d8d28b1b42e412933ef17fcfaf25761dfbae218af945a4c7979699",
+    "adaptation": "byte-identical"
+  },
+  {
+    "public_path": "analysis/matched_null_2026-08-28/results/GSE109142_real_signature_histology_HC3.csv",
+    "source_relative_path": "analysis/matched_null_2026-08-28/results/GSE109142_real_signature_histology_HC3.csv",
+    "source_sha256": "1636240bdf187b80bf36a839a5221e55a0ed4d5b8a52bd2cb6d097226edf97d0",
+    "public_sha256": "1636240bdf187b80bf36a839a5221e55a0ed4d5b8a52bd2cb6d097226edf97d0",
+    "adaptation": "byte-identical"
+  },
+  {
+    "public_path": "analysis/matched_null_2026-08-28/results/GSE109142_real_signature_scores.csv",
+    "source_relative_path": "analysis/matched_null_2026-08-28/results/GSE109142_real_signature_scores.csv",
+    "source_sha256": "461bd219542f821647b5c70568095f1d7bf5ef55257b79f81e1fc9e4c1bb32b0",
+    "public_sha256": "461bd219542f821647b5c70568095f1d7bf5ef55257b79f81e1fc9e4c1bb32b0",
+    "adaptation": "byte-identical"
+  },
+  {
+    "public_path": "analysis/matched_null_2026-08-28/results/GSE36807_real_signature_effect.csv",
+    "source_relative_path": "analysis/matched_null_2026-08-28/results/GSE36807_real_signature_effect.csv",
+    "source_sha256": "5981aeec0647bf9bbefc474610eabc03af8fe707524d79ac9e9ac2aafacc8f67",
+    "public_sha256": "5981aeec0647bf9bbefc474610eabc03af8fe707524d79ac9e9ac2aafacc8f67",
+    "adaptation": "byte-identical"
+  },
+  {
+    "public_path": "analysis/matched_null_2026-08-28/results/GSE36807_real_signature_scores.csv",
+    "source_relative_path": "analysis/matched_null_2026-08-28/results/GSE36807_real_signature_scores.csv",
+    "source_sha256": "ec1335b76b48d5d6619f1dd0141f5d6304e510784213893f850b3397057090ca",
+    "public_sha256": "ec1335b76b48d5d6619f1dd0141f5d6304e510784213893f850b3397057090ca",
+    "adaptation": "byte-identical"
+  },
+  {
+    "public_path": "analysis/matched_null_2026-08-28/results/matched_gene_sets_technical.rds",
+    "source_relative_path": "analysis/matched_null_2026-08-28/results/matched_gene_sets_technical.rds",
+    "source_sha256": "7564672a07efb1ba4bd36c9dd8f2c36ca0c25e9d3ee6d2bb4959a19570da2b09",
+    "public_sha256": "7564672a07efb1ba4bd36c9dd8f2c36ca0c25e9d3ee6d2bb4959a19570da2b09",
+    "adaptation": "byte-identical"
+  },
+  {
+    "public_path": "analysis/matched_null_2026-08-28/results/matched_gene_sets_uc_effect.rds",
+    "source_relative_path": "analysis/matched_null_2026-08-28/results/matched_gene_sets_uc_effect.rds",
+    "source_sha256": "ae698e5f5fcf58f110e76e149110456f8858a28dc7064a0ee04674d86e75ed77",
+    "public_sha256": "ae698e5f5fcf58f110e76e149110456f8858a28dc7064a0ee04674d86e75ed77",
+    "adaptation": "byte-identical"
+  },
+  {
+    "public_path": "analysis/matched_null_2026-08-28/results/matching_balance_by_replicate.csv",
+    "source_relative_path": "analysis/matched_null_2026-08-28/results/matching_balance_by_replicate.csv",
+    "source_sha256": "23a8f6eb0757529d6cf006cef459b1d84c1f907ec5918b60f1779c1496b7c08c",
+    "public_sha256": "23a8f6eb0757529d6cf006cef459b1d84c1f907ec5918b60f1779c1496b7c08c",
+    "adaptation": "byte-identical"
+  },
+  {
+    "public_path": "analysis/matched_null_2026-08-28/results/matching_balance_summary.csv",
+    "source_relative_path": "analysis/matched_null_2026-08-28/results/matching_balance_summary.csv",
+    "source_sha256": "0ec1ee76cbb28d42bc0d55aff33926e35a992c0e61438de52c2efd5262bba959",
+    "public_sha256": "0ec1ee76cbb28d42bc0d55aff33926e35a992c0e61438de52c2efd5262bba959",
+    "adaptation": "byte-identical"
+  },
+  {
+    "public_path": "analysis/matched_null_2026-08-28/results/null_endpoint_statistics.csv",
+    "source_relative_path": "analysis/matched_null_2026-08-28/results/null_endpoint_statistics.csv",
+    "source_sha256": "d12bc10a0fe6784d965236234b7fc12dc8cf37b20a1280d4c1ce1c7c0fb1ea9f",
+    "public_sha256": "d12bc10a0fe6784d965236234b7fc12dc8cf37b20a1280d4c1ce1c7c0fb1ea9f",
+    "adaptation": "byte-identical"
+  },
+  {
+    "public_path": "analysis/matched_null_2026-08-28/results/signature_coverage.csv",
+    "source_relative_path": "analysis/matched_null_2026-08-28/results/signature_coverage.csv",
+    "source_sha256": "c2d2080517442cbb9573158b238d34fa0ed97855fa66fa1bd37ef518d9e3969b",
+    "public_sha256": "c2d2080517442cbb9573158b238d34fa0ed97855fa66fa1bd37ef518d9e3969b",
+    "adaptation": "byte-identical"
+  },
+  {
+    "public_path": "analysis/matched_null_2026-08-28/qa/sessionInfo.txt",
+    "source_relative_path": "analysis/matched_null_2026-08-28/qa/sessionInfo.txt",
+    "source_sha256": "fafa76fe26da3723c36bc2e3c898a66f15662598092af1c431a156d59579b549",
+    "public_sha256": "fafa76fe26da3723c36bc2e3c898a66f15662598092af1c431a156d59579b549",
+    "adaptation": "byte-identical"
+  },
+  {
+    "public_path": "analysis/matched_null_2026-08-28/qa/prefreeze_hash_verification.csv",
+    "source_relative_path": "analysis/matched_null_2026-08-28/qa/prefreeze_hash_verification.csv",
+    "source_sha256": "9bc2b9ccd92ac7694beff9fd2112aa86ba6c0de6194e919d3e51d503630a4428",
+    "public_sha256": "9bc2b9ccd92ac7694beff9fd2112aa86ba6c0de6194e919d3e51d503630a4428",
+    "adaptation": "byte-identical"
+  },
+  {
+    "public_path": "analysis/matched_null_2026-08-28/qa/run_completion_status.txt",
+    "source_relative_path": "analysis/matched_null_2026-08-28/qa/run_completion_status.txt",
+    "source_sha256": "5cb6e38be33923fb97002ff063f582b3cd20cf28ad924957ccb546c5c8b320f1",
+    "public_sha256": "5cb6e38be33923fb97002ff063f582b3cd20cf28ad924957ccb546c5c8b320f1",
+    "adaptation": "byte-identical"
+  },
+  {
+    "public_path": "provenance/protocol_deviation_log.tsv",
+    "source_relative_path": "ledgers/protocol_deviation_log.tsv",
+    "source_sha256": "d30e7cb3482ca929236868738c775d3d57ba774fc10b6c86e9777baebf7167eb",
+    "public_sha256": "d30e7cb3482ca929236868738c775d3d57ba774fc10b6c86e9777baebf7167eb",
+    "adaptation": "byte-identical"
+  },
+  {
+    "public_path": "figures/Figure1_study_design.png",
+    "source_relative_path": "submission_BMC_Gastroenterology_2026-08-29/figures/v2.4_2026-11-11/Figure1_study_design.png",
+    "source_sha256": "332c36478904f8ec1373b22ca52e9458a7fda0ffe209da2517c85a6b8982a1ef",
+    "public_sha256": "332c36478904f8ec1373b22ca52e9458a7fda0ffe209da2517c85a6b8982a1ef",
+    "adaptation": "byte-identical"
+  },
+  {
+    "public_path": "figures/Figure1_study_design.tiff",
+    "source_relative_path": "submission_BMC_Gastroenterology_2026-08-29/figures/v2.4_2026-11-11/Figure1_study_design.tiff",
+    "source_sha256": "d5e5d83939c689e07401cdd2bce93009bbeeff0fb2a1ed58a180c6563d71c1db",
+    "public_sha256": "d5e5d83939c689e07401cdd2bce93009bbeeff0fb2a1ed58a180c6563d71c1db",
+    "adaptation": "byte-identical"
+  },
+  {
+    "public_path": "figures/Figure2_UC_reproducibility.png",
+    "source_relative_path": "submission_BMC_Gastroenterology_2026-08-29/figures/v2.4_2026-11-11/Figure2_UC_reproducibility.png",
+    "source_sha256": "b95504dd3350f9725fd42b3f0580dad290c3bc54ad11caf529726405b6bf86f6",
+    "public_sha256": "b95504dd3350f9725fd42b3f0580dad290c3bc54ad11caf529726405b6bf86f6",
+    "adaptation": "byte-identical"
+  },
+  {
+    "public_path": "figures/Figure2_UC_reproducibility.tiff",
+    "source_relative_path": "submission_BMC_Gastroenterology_2026-08-29/figures/v2.4_2026-11-11/Figure2_UC_reproducibility.tiff",
+    "source_sha256": "73691a205a39a5961a924dbe31721ef5ec5dbfffb7aee98e3348658addcef004",
+    "public_sha256": "73691a205a39a5961a924dbe31721ef5ec5dbfffb7aee98e3348658addcef004",
+    "adaptation": "byte-identical"
+  },
+  {
+    "public_path": "figures/Figure3_EoC_convergence.png",
+    "source_relative_path": "submission_BMC_Gastroenterology_2026-08-29/figures/v2.4_2026-11-11/Figure3_EoC_convergence.png",
+    "source_sha256": "80d114f2a8046024fe18e3c3f56583e5435e78c6241232cdc13cf8378480aca3",
+    "public_sha256": "80d114f2a8046024fe18e3c3f56583e5435e78c6241232cdc13cf8378480aca3",
+    "adaptation": "byte-identical"
+  },
+  {
+    "public_path": "figures/Figure3_EoC_convergence.tiff",
+    "source_relative_path": "submission_BMC_Gastroenterology_2026-08-29/figures/v2.4_2026-11-11/Figure3_EoC_convergence.tiff",
+    "source_sha256": "9890611304f332e345f30de6ceb65b26a115266d1f020ec5776a68af444b1326",
+    "public_sha256": "9890611304f332e345f30de6ceb65b26a115266d1f020ec5776a68af444b1326",
+    "adaptation": "byte-identical"
+  },
+  {
+    "public_path": "figures/Figure4_primary_Hallmark.png",
+    "source_relative_path": "submission_BMC_Gastroenterology_2026-08-29/figures/v2.4_2026-11-11/Figure4_primary_Hallmark.png",
+    "source_sha256": "21d2afd2a602311decab34cc4bb6cf3d44f3b9f0f29265cb6c0277c5d8c075d7",
+    "public_sha256": "21d2afd2a602311decab34cc4bb6cf3d44f3b9f0f29265cb6c0277c5d8c075d7",
+    "adaptation": "byte-identical"
+  },
+  {
+    "public_path": "figures/Figure4_primary_Hallmark.tiff",
+    "source_relative_path": "submission_BMC_Gastroenterology_2026-08-29/figures/v2.4_2026-11-11/Figure4_primary_Hallmark.tiff",
+    "source_sha256": "526381b743863abbcf8ce47103c8e085b8fea2041ba0d0901eddbbeb6a10c3cd",
+    "public_sha256": "526381b743863abbcf8ce47103c8e085b8fea2041ba0d0901eddbbeb6a10c3cd",
+    "adaptation": "byte-identical"
+  },
+  {
+    "public_path": "figures/Figure5_EoG_exploratory.png",
+    "source_relative_path": "submission_BMC_Gastroenterology_2026-08-29/figures/v2.4_2026-11-11/Figure5_EoG_exploratory.png",
+    "source_sha256": "416ab9c864b662ecf35438520120a774504d604580889a418d10dbc8e4a26961",
+    "public_sha256": "416ab9c864b662ecf35438520120a774504d604580889a418d10dbc8e4a26961",
+    "adaptation": "byte-identical"
+  },
+  {
+    "public_path": "figures/Figure5_EoG_exploratory.tiff",
+    "source_relative_path": "submission_BMC_Gastroenterology_2026-08-29/figures/v2.4_2026-11-11/Figure5_EoG_exploratory.tiff",
+    "source_sha256": "47e25d4a6c6a290cf4d6093ffe6d6b58ac56a75a0e0b7f6fc2225354f531a5a9",
+    "public_sha256": "47e25d4a6c6a290cf4d6093ffe6d6b58ac56a75a0e0b7f6fc2225354f531a5a9",
+    "adaptation": "byte-identical"
+  },
+  {
+    "public_path": "figures/Figure6_phenotype_exploratory.png",
+    "source_relative_path": "submission_BMC_Gastroenterology_2026-08-29/figures/v2.4_2026-11-11/Figure6_phenotype_exploratory.png",
+    "source_sha256": "9c001a5cbd47def2a1693189fed69f5023af19c317656464d8da718ae828930b",
+    "public_sha256": "9c001a5cbd47def2a1693189fed69f5023af19c317656464d8da718ae828930b",
+    "adaptation": "byte-identical"
+  },
+  {
+    "public_path": "figures/Figure6_phenotype_exploratory.tiff",
+    "source_relative_path": "submission_BMC_Gastroenterology_2026-08-29/figures/v2.4_2026-11-11/Figure6_phenotype_exploratory.tiff",
+    "source_sha256": "8be30f24c57210a23953f251ed59a30a1f6069f45c83dc446ac0fcbe72c971ee",
+    "public_sha256": "8be30f24c57210a23953f251ed59a30a1f6069f45c83dc446ac0fcbe72c971ee",
+    "adaptation": "byte-identical"
+  },
+  {
+    "public_path": "figures/Supplementary_Figure_S1_EoG_signature_gate.png",
+    "source_relative_path": "submission_BMC_Gastroenterology_2026-08-29/figures/v2.4_2026-11-11/Supplementary_Figure_S1_EoG_signature_gate.png",
+    "source_sha256": "7673f10c6c0be9582b70dbf4646d498286bb62297b8b384ee7aabf435cd505fa",
+    "public_sha256": "7673f10c6c0be9582b70dbf4646d498286bb62297b8b384ee7aabf435cd505fa",
+    "adaptation": "byte-identical"
+  },
+  {
+    "public_path": "figures/Supplementary_Figure_S1_EoG_signature_gate.tiff",
+    "source_relative_path": "submission_BMC_Gastroenterology_2026-08-29/figures/v2.4_2026-11-11/Supplementary_Figure_S1_EoG_signature_gate.tiff",
+    "source_sha256": "f81c717106d721b045ea5b928a4074c9c32511e941c1052ccd810555cc126835",
+    "public_sha256": "f81c717106d721b045ea5b928a4074c9c32511e941c1052ccd810555cc126835",
+    "adaptation": "byte-identical"
+  },
+  {
+    "public_path": "figures/Supplementary_Figure_S2_matched_null_competitive.png",
+    "source_relative_path": "submission_BMC_Gastroenterology_2026-08-29/figures/v2.4_2026-11-11/Supplementary_Figure_S2_matched_null_competitive.png",
+    "source_sha256": "37550acbf96d3adbef0cda92a45da070b54bac0ac3bfdfdccedfbb279f23894f",
+    "public_sha256": "37550acbf96d3adbef0cda92a45da070b54bac0ac3bfdfdccedfbb279f23894f",
+    "adaptation": "byte-identical"
+  },
+  {
+    "public_path": "figures/Supplementary_Figure_S2_matched_null_competitive.tiff",
+    "source_relative_path": "submission_BMC_Gastroenterology_2026-08-29/figures/v2.4_2026-11-11/Supplementary_Figure_S2_matched_null_competitive.tiff",
+    "source_sha256": "162a1ff3bd3f2060efb1077320a8ecf2d9f7d45f8cd25cddc429f267ceac569a",
+    "public_sha256": "162a1ff3bd3f2060efb1077320a8ecf2d9f7d45f8cd25cddc429f267ceac569a",
+    "adaptation": "byte-identical"
+  }
+]

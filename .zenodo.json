@@ -1,0 +1,52 @@
+{
+  "title": "EGID–UC transcriptomic convergence: analysis code and derived results",
+  "upload_type": "software",
+  "version": "2.4.0",
+  "creators": [
+    {
+      "name": "Chen, Yin",
+      "affiliation": "Department of Digestive Disease, Guizhou Provincial People's Hospital"
+    },
+    {
+      "name": "Wang, Jinglin",
+      "affiliation": "Department of Digestive Disease, Guizhou Provincial People's Hospital"
+    },
+    {
+      "name": "Peng, Yashi",
+      "affiliation": "Department of Digestive Disease, Guizhou Provincial People's Hospital"
+    },
+    {
+      "name": "Li, Fei",
+      "affiliation": "Department of Digestive Disease, Guizhou Provincial People's Hospital"
+    },
+    {
+      "name": "Yang, Zaili",
+      "affiliation": "Department of Digestive Disease, Guizhou Provincial People's Hospital"
+    },
+    {
+      "name": "Yang, Qian",
+      "affiliation": "Department of Digestive Disease, Guizhou Provincial People's Hospital",
+      "orcid": "0000-0002-9591-7000"
+    }
+  ],
+  "description": "Code, frozen derived results, protocols and figures for a secondary public-data comparison of eosinophilic colitis and ulcerative colitis, with a post hoc gastric comparison and matched-random-gene-set evaluation. The primary global convergence result was negative. The internal plan was not publicly preregistered. Source expression matrices and manuscript drafts are not included. Software: MIT. Original derived results, figures and documentation: CC BY 4.0; third-party materials retain original terms. See README for tested reproducibility scope.",
+  "keywords": [
+    "eosinophilic colitis",
+    "eosinophilic gastritis",
+    "ulcerative colitis",
+    "transcriptomics",
+    "matched gene sets",
+    "reproducibility"
+  ],
+  "access_right": "open",
+  "license": "mit",
+  "notes": "Original derived results, figures and documentation use CC BY 4.0. Funding: Guizhou Province High-level Innovative Talent Selection and Training Program (gzwjrs2024-005); Science and Technology Fund Project of Guizhou Provincial Science and Technology Program (QKHJC-ZK [2022]-264).",
+  "language": "eng",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/wangjinglin0905-gif/egid-uc-transcriptomic-convergence",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+EoC discovery rho=0.064183, exact two-sided P=0.51315
+EoC validation rho=0.058403, permutation two-sided P=0.23508
+EoC gated signature genes=4
+EoG exploratory discovery rho=0.24035, permutation two-sided P=0.10029
+EoG gated exploratory signature genes=209
+Primary replicated Hallmark pathways=0

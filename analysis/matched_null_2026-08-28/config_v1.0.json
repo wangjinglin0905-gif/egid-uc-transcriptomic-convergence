@@ -1,0 +1,22 @@
+{
+  "protocol_version": "1.0",
+  "freeze_time": "2026-08-28T10:00:03+08:00",
+  "seed": 20260828,
+  "n_random_sets": 10000,
+  "nearest_k": 100,
+  "fallback_k": 500,
+  "minimum_signature_coverage": 0.80,
+  "maximum_failed_draw_fraction": 0.01,
+  "balance_median_abs_smd_max": 0.10,
+  "balance_p95_abs_smd_max": 0.25,
+  "competitive_tail": "one-sided-positive",
+  "multiplicity": "Holm within each null model across the two competitive endpoints",
+  "null_models": {
+    "technical": ["UC_direction", "discovery_pooled_mean_rank", "discovery_log_sd_rank"],
+    "uc_effect": ["UC_direction", "discovery_pooled_mean_rank", "discovery_log_sd_rank", "abs_UC_moderated_t_rank"]
+  },
+  "validation_endpoints": {
+    "GSE36807": "Hedges_g_UC_vs_control",
+    "GSE109142": "HC3_robust_t_histologic_severity_adjusted_for_eos32_age_sex"
+  }
+}

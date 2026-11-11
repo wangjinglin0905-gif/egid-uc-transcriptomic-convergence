@@ -1,0 +1,10 @@
+analysis/R_cache/
+generated_figures/
+analysis/matched_null_2026-08-28/logs/
+.Rhistory
+.RData
+.Rproj.user/
+.DS_Store
+*.tmp
+.env
+.env.*
